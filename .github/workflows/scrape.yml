@@ -1,6 +1,7 @@
 name: Scrape Trending Repos & Prepare PR
 
 on:
+  workflow_dispatch:    # allows manual run on demand
   schedule:
     - cron: '0 1 * * *'     # every day at 01:00 UTC
     - cron: '0 1 * * 0'     # every week at 01:00 UTC Sunday
