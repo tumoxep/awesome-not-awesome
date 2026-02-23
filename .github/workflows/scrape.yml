@@ -32,4 +32,4 @@ jobs:
           body: |
             Automated update of trending repos for review. Please mark any 'not awesome' candidates in the README.
           branch: auto/trending-update
-          base: main
+          base: master
